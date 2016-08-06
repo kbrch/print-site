@@ -1,0 +1,21 @@
+hiroshige:
+  name: "Utagawa Hiroshige"
+  birth: 1797-01-01
+  death: 1858-10-12
+  birthplace: "Edo"
+  prints:
+    - hakone
+    - kanbara
+    - travellers_surprised_by_sudden_rain
+hokusai:
+  name: "Katsushika Hokusai"
+  birth: 1760-10-31
+  death: "1849-05-10"
+  birthplace: "Edo"
+  prints:
+    - the_lantern_ghost
+    - great_wave_off_kanagawa
+kawase:
+  name: "Hasui Kawase"
+  birth: 1883-05-18
+  death: 1957-11-07

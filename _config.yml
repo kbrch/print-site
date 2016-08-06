@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Kevin's Ukiyo-e Collection"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Kevin Bertram"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -63,10 +63,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Kevin Bertram"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "I make things."
+  location         : "Chicago, IL"
   email            :
   uri              :
   bitbucket        :
@@ -169,6 +169,30 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+
+
+collections:
+  artists:
+    output: true
+    path: /artists/:title/
+  prints:
+    output: true
+    path: /prints/:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "artists"
+    values:
+      layout: "artist"
+  -
+    scope:
+      path: ""
+      type: "prints"
+    values:
+      layout: "print"
+
 
 
 # Archives
